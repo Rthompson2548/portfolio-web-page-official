@@ -1,0 +1,102 @@
+/* used this tag to style all text with the same font*/
+* {
+  font-family: 'Montserrat', sans serif;
+  margin:0;
+  padding:0;
+
+}
+/* added a blue background for my header */
+header{
+  background-color:#6B84BB;
+  width:100%;
+  padding:15px;
+  line-height:50px;
+}
+/* styled my h1 to be the largest, and boldest text on the webpage */
+h1{
+  font-size:45px;
+  font-weight:750;
+  text-align:center;
+  color:#EEF0F3;
+}
+
+body{
+  background:#EEF0F3;
+  margin:0;
+}
+
+/* created a separate class for the text under the image to make it black instead of white*/
+.black{
+  color:black !important;
+}
+/* created a class for a few elements that all needed to be centered, medium-sized, bold, and white */
+.centered-text{
+  text-align:center;
+  font-weight:500;
+  color:#EEF0F3;
+  font-size:16px;
+}
+
+img{
+  margin:auto;
+  display:block;
+  width:50%;
+  margin-top:50px;
+  padding:25px;
+}
+
+h2{
+  font-size:18px;
+  font-weight:50;
+}
+ h3{
+  font-size:18px;
+  font-weight:650;
+  padding-left:100px;
+  padding-top: 10px;
+  padding-bottom:10px;
+}
+hr{
+  background-color:#AAB3B5;
+  border:none;
+  height:0.2px;
+  margin: 35px 0px;
+}
+
+p{
+  padding: 10px 100px;
+  line-height:25px;
+  line-height:30px;
+}
+ol, ul, li{
+  list-style-position:inside;
+  margin:20px 50px;
+  line-height:30px;
+}
+/*styled the anchor tags so they would appear black and without an underline*/
+a{
+  text-decoration:none;
+  color:black;
+}
+
+/*hover pseudo classes start*/
+a:link{
+  color:black;
+}
+a:hover{
+  color: #5981AF;
+}
+a:visited: {
+  color: #818687;
+}
+/*hover pseudo classes end*/
+
+footer{
+  text-align:center;
+  padding: 20px;
+   background-color:#6B84BB;
+   color:#ffffff;
+   font-weight: 700;
+   font-size:16px;
+   margin-top: 40px;
+}
