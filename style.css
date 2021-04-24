@@ -7,7 +7,7 @@
 }
 /* added a blue background for my header */
 header{
-  background-color:#6B84BB;
+  background-color:#2f3d58;
   width:100%;
   padding:15px;
   line-height:50px;
@@ -94,7 +94,7 @@ a:visited: {
 footer{
   text-align:center;
   padding: 20px;
-   background-color:#6B84BB;
+   background-color:#2f3d58;
    color:#ffffff;
    font-weight: 700;
    font-size:16px;
