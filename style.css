@@ -27,9 +27,11 @@ body{
 
 /* created a separate class for the text under the image to make it black instead of white*/
 .black{
-  color:black !important;
+  color:black;
   font-weight:650;
   font-size:22px;
+  text-align:center;
+  margin-bottom:25px;
 }
 /* created a class for a few elements that all needed to be centered, medium-sized, bold, and white */
 .centered-text{
